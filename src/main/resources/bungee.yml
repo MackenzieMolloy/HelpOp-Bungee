@@ -1,0 +1,4 @@
+name: HelpOp
+version: @version@
+main: ml.mackenziemolloy.helpop.Main
+author: Mackenzie Molloy

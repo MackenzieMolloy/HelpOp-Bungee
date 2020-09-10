@@ -1,0 +1,41 @@
+#
+#   :::    :::   ::::::::::   :::         :::::::::        ::::::::       :::::::::
+#   :+:    :+:   :+:          :+:         :+:    :+:      :+:    :+:      :+:    :+:
+#   +:+    +:+   +:+          +:+         +:+    +:+      +:+    +:+      +:+    +:+
+#   +#++:++#++   +#++:++#     +#+         +#++:++#+       +#+    +:+      +#++:++#+
+#   +#+    +#+   +#+          +#+         +#+             +#+    +#+      +#+
+#   #+#    #+#   #+#          #+#         #+#             #+#    #+#      #+#
+#   ###    ###   ##########   ##########  ###              ########       ###
+#
+# By Mackenzie Molloy (Forked from BMSG - https://www.spigotmc.org/resources/50606/)
+# Discord: Mackenzie Molloy#1821
+#
+
+Prefix: ''
+
+# HelpOp Permissions
+#
+# helpop.use | Access to /helpop
+# helpop.receive | Access to receive helpop requests
+#
+
+No_Permission: '&4&lHelpOp &c| &fYou do not have permission!'
+
+# HelpOP PlaceHolders
+#
+# %server% | Returns server name
+# %player% | Returns player name
+# %msg% | Returns message content
+# %time% | Returns wait time till next helpop (Exclusive to "Cooldown_Wait")
+#
+
+HelpOp_Enabled: true
+HelpOp_Disabled: '&4&lHelpOp &c| &fSorry, but this is disabled.'
+
+#Time in seconds
+HelpOp_Cooldown: 10
+
+Cooldown_Wait: '&4&lHelpOp &c| &fPlease wait &c%time% Seconds &fto use /helpop again.'
+HelpOp_Format: '&2[&2&lHELPOP&2] &a(%server%) &f%player%&7: &f%msg%'
+HelpOp_Sent: '&4&lHelpOp &c| &fYour message was sent to all online staff members.'
+HelpOp_Usage: '&4&lHelpOp &c| &fCorrect Usage; &c/helpop (msg)'
